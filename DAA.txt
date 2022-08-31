@@ -1,0 +1,83 @@
+Step 1 Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, kembali ke Step 2.
+Step 2 Bagi nilai m dengan n, masukan nilai sisanya ke r.
+Step 3 Masukan nilai n ke m dan nilai r ke n. Kembali ke Step 1.
+
+Pseudocode 
+While n ≠ 0 do
+  r ← m mod n
+  m ← n
+  n ← r
+return m
+----------------------------------------------------
+
+Nilai KPK dari 3 dan 4 
+
+Step 1 Menentukan FPB dari data a dan b. 
+Step 2 bagi nilai a kali b dengan FPB a dan b.
+
+Pseudocode 
+
+KPK <- a*b / gcd(a,b)
+----------------------------------------------------
+
+Ada 2 buah: manggis dan pisang. Manggis di piring 1, Pisang di piring 2. Piring 3 kosong.
+
+Step 1 Memindahkan manggis ke piring 3 dan piring 1 kosong
+Step 2 Memindahkan pisang ke piring 1 dan piring 2 kosong 
+
+p3=0
+p1=p3
+p2=p1
+----------------------------------------------------
+
+Diketahui sebuah segitiga memiliki ukuran sebagai berikut;
+Alas 25, Tinggi 30
+Algoritma hitung luas segitiga tersebut?
+
+Step 1 Mendeklarasikan luas, alas, dan tinggi
+Step 2 Masukan alas = 25, tinggi = 30
+Step 3 Menghitung luas = ½*alas*tinggi
+Step 4 Menampilkan luas
+
+Algoritma
+deklarasi
+var luas, alas, tinggi
+alas ← 25
+tinggi ←30
+luas = ½*alas*tinggi
+write(luas)
+----------------------------------------------------
+
+MENENTUKAN JAJAR GENJANG 
+Step 1 mendeklarisakan panjang = alas dan tinggi.
+Step 2 Menentukan luas = alas x tinggi 
+
+Algoritma
+panjang = alas = 5 , tinggi = 3
+luas = 5 x 3
+----------------------------------------------------
+
+VOLUME TABUNG 
+Step 1 mendeklarasikan jari jari dan tinggi dan pi
+Step 2 Mencari luas alas (lingkaran)
+Step 3 Mengkalikan antara luas alas dan tinggi untuk mendapatkan volume 
+
+
+Algoritma 
+jari jari = r = 3, tinggi = 5; pi =3.14
+luas alas = 3.14*3^2
+vol tabung = luas alas * 5
+----------------------------------------------------
+
+VOLUME KERUCUT
+Step 1 mendeklarasikan jari jari dari diameter dan tinggi dan pi 
+Step 2 Mencari luas alas (lingkaran)
+Step 3 Mengkalikan antara luas alas dan tinggi untuk mendapatkan volume 
+
+Algoritma 
+jari jari = diameter/2 = 5/2= 2,5 ; tinggi = 4 ; pi =3.14
+luas alas = 3.14*2.5^2
+vol kerucut = luas alas * 4 * (1/3)
+
+
+
